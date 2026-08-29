@@ -1,4 +1,4 @@
-println("🏁 INITIALIZATION PHASE: Gradle is reading settings.gradle.kts right now!!")
+println("🏁 INITIALIZATION PHASE: Gradle is reading settings.gradle.kts right now!!!!")
 
 pluginManagement {
     repositories {
