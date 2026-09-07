@@ -38,7 +38,16 @@ android {
         release {
             optimization {
                 enable = false
+
             }
+
+            manifestPlaceholders["appNameSuffix"] = ""
+        }
+
+        debug {
+            applicationIdSuffix = ".debug"
+
+            manifestPlaceholders["appNameSuffix"] = " (Debug)"
         }
     }
     compileOptions {
@@ -54,4 +63,6 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(libs.androidx.junit)
+
+    implementation(project(":core:network")) // Added this module here to experiment how a module is treated as a differnt app when run on the emulator.
 }

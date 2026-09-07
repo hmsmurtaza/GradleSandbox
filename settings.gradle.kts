@@ -27,3 +27,4 @@ dependencyResolutionManagement {
 rootProject.name = "GradleSandbox"
 include(":app")
 include(":core:network")
+include(":gradlesandboxdriver")
