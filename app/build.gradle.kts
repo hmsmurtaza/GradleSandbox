@@ -1,3 +1,4 @@
+println("=== TRACE 4A: Configuration Phase - Evaluating :app Module ====")
 plugins {
     alias(libs.plugins.android.application)
 }

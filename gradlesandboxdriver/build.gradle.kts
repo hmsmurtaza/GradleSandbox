@@ -1,3 +1,4 @@
+println("=== \uD83D\uDFE1 TRACE 3B: Configuration Phase - Evaluating :gradlesandboxdriver Module ===")
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.compose)

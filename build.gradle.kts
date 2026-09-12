@@ -1,4 +1,5 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
+println("=== \uD83D\uDD35 TRACE 2: Configuration Phase - Root build.gradle.kts is executing ===")
 plugins {
 //    id("com.android.application")
 //    alias(libs.plugins.kotlin.android)

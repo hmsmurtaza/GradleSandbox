@@ -1,3 +1,4 @@
+println("=== \uD83D\uDFE1 TRACE 3A: Configuration Phase - Evaluating :core:network Module ===")
 plugins {
     alias(libs.plugins.android.library)
 }
