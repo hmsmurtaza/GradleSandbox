@@ -1,7 +1,5 @@
-println("🏁 INITIALIZATION PHASE: Gradle is reading settings.gradle.kts right now!!!!")
-println("=== \uD83D\uDFE2 Trace 1: Initialization Phase - settings.gradle.kts is reading the module structure ===")
-
 pluginManagement {
+    includeBuild("build-logic")
     repositories {
         google {
             content {
@@ -14,6 +12,10 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+println("🏁 INITIALIZATION PHASE: Gradle is reading settings.gradle.kts right now!!!!")
+println("=== \uD83D\uDFE2 Trace 1: Initialization Phase - settings.gradle.kts is reading the module structure ===")
+
+
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
 }
